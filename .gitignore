@@ -1,0 +1,11 @@
+#整个.idea文件夹
+.idea
+
+# chart
+*.unsealed
+
+# 所有iml文件
+*.iml
+
+# 所有target包下文件
+/*/target
