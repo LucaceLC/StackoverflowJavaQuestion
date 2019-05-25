@@ -31,14 +31,14 @@ public class Test {
         Dog oldDog = new Dog("oldName");
         Dog newDog = oldDog;
 
-        //传递oldDog对象给isChangeName
+        //传递oldDog对象给nonChangeName
         nonChangeName(oldDog);
 
-        //false
-        oldDog.getName().equals("oldName");
         //true
-        oldDog.getName().equals("newName");
+        oldDog.getName().equals("oldName");
         //false
+        oldDog.getName().equals("newName");
+        //true
         System.out.println("是否是一个对象" + (newDog == oldDog));
     }
 
