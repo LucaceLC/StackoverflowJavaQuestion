@@ -24,7 +24,6 @@ Java一直都是**按值传递**。然而，当传递一个对象的值，我们
 例如：
 
 ```java
-package com.vanke.canaan.admin.service.order;
 
 public class Test {
     public static void main(String[] args) {
@@ -82,7 +81,6 @@ oldDog的引用的值被复制传递了一份到dog，改变引用备份的值�
 另一个例子
 
 ```java
-package com.vanke.canaan.admin.service.order;
 
 public class Test2 {
     public static void main(String[] args) {
