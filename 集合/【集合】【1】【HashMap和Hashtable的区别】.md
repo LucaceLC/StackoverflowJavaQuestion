@@ -40,9 +40,5 @@ Java中的HashMap和Hashtable有下面几点不同：
 
 非多线程场景下：使用HashMap，Hashtable已经过时但没有弃用，现在还保留是因为20世纪90年代的遗留代码API。需要同步的话，请使用ConcurrentHashMap或者外部同步HashMap（充分考虑多线程后果）。
 
-[上一篇：Java是“通过引用传递”还是“值传递”]([https://github.com/LucaceLC/StackoverflowJavaQuestion/blob/master/Java%E5%80%BC/%E3%80%90Java%E5%80%BC%E4%BC%A0%E9%80%92%E3%80%91%E3%80%901%E3%80%91%E3%80%90Java%E6%98%AF%E2%80%9C%E9%80%9A%E8%BF%87%E5%BC%95%E7%94%A8%E4%BC%A0%E9%80%92%E2%80%9D%E8%BF%98%E6%98%AF%E2%80%9C%E5%80%BC%E4%BC%A0%E9%80%92%E2%80%9D%E3%80%91.md](https://github.com/LucaceLC/StackoverflowJavaQuestion/blob/master/Java值/[Java值传递][1][Java是"通过引用传递"还是"值传递"].md))
-
-
-
-
+[上一篇：**Java是“通过引用传递”还是“值传递”**](https://github.com/LucaceLC/StackoverflowJavaQuestion/blob/master/Java%E5%80%BC/%E3%80%90Java%E5%80%BC%E4%BC%A0%E9%80%92%E3%80%91%E3%80%901%E3%80%91%E3%80%90Java%E6%98%AF%E2%80%9C%E9%80%9A%E8%BF%87%E5%BC%95%E7%94%A8%E4%BC%A0%E9%80%92%E2%80%9D%E8%BF%98%E6%98%AF%E2%80%9C%E5%80%BC%E4%BC%A0%E9%80%92%E2%80%9D%E3%80%91.md)
 
